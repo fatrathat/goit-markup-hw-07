@@ -48,6 +48,9 @@
 .footer-social-item {
   width: 44px;
   height: 44px;
+  & + .footer-social-item {
+    margin-left: 10px;
+  }
 }
 
 .footer-social-text {
@@ -69,21 +72,16 @@
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--accent-text-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-text-color);
+  }
 }
 
 .footer-social-icon {
   width: 20px;
   height: 20px;
   fill: var(--main-title-color);
-}
-
-.footer-social-item + .footer-social-item {
-  margin-left: 10px;
 }
 
 .footer-mail-container {
@@ -122,10 +120,9 @@
   border-radius: 4px;
   outline: none;
   transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mail-text:focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  &:focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  }
 }
 
 .button-mail {
