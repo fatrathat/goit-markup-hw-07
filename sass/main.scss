@@ -3,7 +3,7 @@
 @import './base/reset';
 @import './base/general';
 
-@import './layout/header';
+@import './components/header';
 
 @import './components/logo';
 @import './components/main-page/container';
@@ -14,7 +14,7 @@
 @import './components/main-page/team';
 @import './components/main-page/clients';
 
-@import './layout/footer';
+@import './components/footer';
 
 @import './components/main-page/modal';
 
