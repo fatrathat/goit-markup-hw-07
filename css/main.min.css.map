@@ -18,7 +18,9 @@
         "../sass/components/_footer.scss",
         "../sass/components/main-page/_modal.scss",
         "../sass/components/portfolio/_filter.scss",
-        "../sass/components/portfolio/_list.scss"
+        "../sass/components/portfolio/_list.scss",
+        "../sass/utils/_mixins.scss",
+        "../sass/utils/_placeholders.scss"
     ],
     "names": [],
     "file": "main.min.css"
