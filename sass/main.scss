@@ -1,0 +1,19 @@
+// Main page
+@import './utils/variables';
+@import './base/reset';
+@import './base/general';
+
+@import './layout/header';
+
+@import './components/main-page/container';
+@import './components/main-page/title';
+@import './components/main-page/features';
+@import './components/main-page/activity';
+@import './components/main-page/team';
+@import './components/main-page/clients';
+
+@import './layout/footer';
+
+// Portfolio
+@import './components/portfolio/filter';
+@import './components/portfolio/list';
