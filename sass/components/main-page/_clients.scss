@@ -6,7 +6,7 @@
 
 .clients__item {
   @include dimentions(170px, 90px);
-  border: 1px solid var(--icon-main-color);
+  @include border(1px, solid, var(--icon-main-color));
   box-sizing: border-box;
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);

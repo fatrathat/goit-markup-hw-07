@@ -15,3 +15,7 @@
   width: $w;
   height: $h;
 }
+
+@mixin border($bw, $bs, $bc) {
+  border: $bw $bs $bc;
+}
